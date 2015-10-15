@@ -2,15 +2,15 @@
   "name": "opensourcepos",
   "version": "2.4",
   "authors": [
-    "jekkos <jeroen.peelaerts - at - gmail.com>"
+    "asakpke <asakpke - at - gmail.com>"
   ],
-  "description": "Open Source Point of Sale is a web based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface",
+  "description": "RoshanTech.com POS is a web based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface",
   "main": "dist/ospos.js",
   "keywords": [
     "point-of-sale"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/jekkos/opensourcepos",
+  "homepage": "https://github.com/asakpke/opensourcepos",
   "private": true,
   "moduleType": [
     "globals"

@@ -1,19 +1,19 @@
 {
   "name": "opensourcepos",
   "version": "2.4.0",
-  "description": "Open Source Point of Sale is a web based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface.",
+  "description": "RoshanTech.com POS is a web based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface.",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jekkos/opensourcepos"
+    "url": "https://github.com/asakpke/opensourcepos"
   },
   "keywords": [
     "point-of-sale"
   ],
-  "author": "jekkos",
+  "author": "asakpke",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -23,7 +23,7 @@
     "grunt-contrib-uglify": "~0.8.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-mocha-webdriver": "^1.2.2",
-    "grunt-script-link-tags": "git://github.com/jekkos/grunt-script-link-tags.git#master",
+    "grunt-script-link-tags": "git://github.com/asakpke/grunt-script-link-tags.git#master",
     "mocha": "^2.2.1",
     "phantomjs": "~1.9.2",
     "wd": "^0.3.3"
