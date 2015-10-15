@@ -31,7 +31,7 @@ INSERT INTO `ospos_app_config` (`key`, `value`) VALUES
 ('address', '123 Nowhere street'),
 ('company', 'RoshanTech.com POS'),
 ('default_tax_rate', '8'),
-('email', 'admin@pappastech.com'),
+('email', 'asakpke@gmail.com'),
 ('fax', ''),
 ('phone', '555-555-5555'),
 ('return_policy', 'Test'),
@@ -333,7 +333,7 @@ CREATE TABLE `ospos_people` (
 --
 
 INSERT INTO `ospos_people` (`first_name`, `last_name`, `phone_number`, `email`, `address_1`, `address_2`, `city`, `state`, `zip`, `country`, `comments`, `person_id`) VALUES
-('John', 'Doe', '555-555-5555', 'admin@pappastech.com', 'Address 1', '', '', '', '', '', '', 1);
+('John', 'Doe', '555-555-5555', 'asakpke@gmail.com', 'Address 1', '', '', '', '', '', '', 1);
 
 -- --------------------------------------------------------
 
