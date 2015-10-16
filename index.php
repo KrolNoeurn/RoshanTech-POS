@@ -18,7 +18,10 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'development');
+// SAS
+//define('ENVIRONMENT', 'development');
+define('ENVIRONMENT', 'production');
+// EAS
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
