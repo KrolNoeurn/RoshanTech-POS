@@ -333,7 +333,7 @@ CREATE TABLE `ospos_people` (
 --
 
 INSERT INTO `ospos_people` (`first_name`, `last_name`, `phone_number`, `email`, `address_1`, `address_2`, `city`, `state`, `zip`, `country`, `comments`, `person_id`) VALUES
-('John', 'Doe', '555-555-5555', 'asakpke@gmail.com', 'Address 1', '', '', '', '', '', '', 1);
+('RoshanTech.com', 'Admin', '0300-5393652', 'asakpke@gmail.com', 'RoshanTech.com', 'G Block', 'Attock', 'Punjab', '43000', 'Pakistan', '', 1);
 
 -- --------------------------------------------------------
 
