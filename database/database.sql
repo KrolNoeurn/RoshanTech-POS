@@ -28,15 +28,15 @@ CREATE TABLE `ospos_app_config` (
 --
 
 INSERT INTO `ospos_app_config` (`key`, `value`) VALUES
-('address', '123 Nowhere street'),
+('address', 'G Block'),
 ('company', 'RoshanTech.com POS'),
 ('default_tax_rate', '8'),
 ('email', 'asakpke@gmail.com'),
 ('fax', ''),
-('phone', '555-555-5555'),
-('return_policy', 'Test'),
-('timezone', 'America/New_York'),
-('website', ''),
+('phone', '0300-5393652'),
+('return_policy', 'No returns without receipt'),
+('timezone', 'Pakistan/Karachi'),
+('website', 'http://roshantech.com/'),
 ('recv_invoice_format', '$CO'),
 ('sales_invoice_format', '$CO'),
 ('tax_included', '0'),
