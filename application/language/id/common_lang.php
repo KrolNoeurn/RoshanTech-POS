@@ -38,5 +38,5 @@ $lang["common_view_recent_sales"] = "Lihat Penjualan Terkini";
 $lang["common_website"] = "Situs";
 $lang["common_welcome"] = "Selamat Datang";
 $lang["common_welcome_message"] = "Selamat Datang, klik modul di bawah ini untuk memulai";
-$lang["common_you_are_using_ospos"] = "Anda menggunakan Open Source Point Of Sale Versi";
+$lang["common_you_are_using_ospos"] = "Anda menggunakan RoshanTech.com POS Versi";
 $lang["common_zip"] = "Kode POS";

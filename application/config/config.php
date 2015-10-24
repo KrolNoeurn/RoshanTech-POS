@@ -5,7 +5,7 @@
 | Code Version
 |--------------------------------------------------------------------------
 |
-| This is the version of Open Source Point of Sale you're running
+| This is the version of RoshanTech.com POS you're running
 |
 |
 */
