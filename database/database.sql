@@ -68,7 +68,7 @@ INSERT INTO `ospos_app_config` (`key`, `value`) VALUES
 ('default_sales_discount', '0'),
 ('lines_per_page', '25'),
 ('show_total_discount', '1'),
-('dateformat', 'm-d-Y'),
+('dateformat', 'm/d/Y'),
 ('timeformat', 'H:i:s'),
 ('currency_symbol', '$');
 
@@ -583,8 +583,7 @@ CREATE TABLE `ospos_sales_suspended` (
   `sale_id` int(10) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`sale_id`),
   KEY `customer_id` (`customer_id`),
-  KEY `employee_id` (`employee_id`),
-  UNIQUE KEY `invoice_number` (`invoice_number`)
+  KEY `employee_id` (`employee_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8  ;
 
 --
