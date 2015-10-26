@@ -82,7 +82,7 @@ CREATE TABLE `ospos_employees` (
 --
 
 INSERT INTO `ospos_employees` (`username`, `password`, `person_id`, `deleted`) VALUES
-('admin', '439a6de57d475c1a0ba9bcb1c39f0af6', 1, 0);
+('admin', 'b99d103582345def15e8108e6193d782', 1, 0);
 
 -- --------------------------------------------------------
 
