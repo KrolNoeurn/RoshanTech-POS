@@ -29,11 +29,11 @@ CREATE TABLE `ospos_app_config` (
 
 INSERT INTO `ospos_app_config` (`key`, `value`) VALUES
 ('address', 'G Block'),
-('company', 'RoshanTech.com POS'),
+('company', 'RoshanTech.com'),
 ('default_tax_rate', '8'),
 ('email', 'asakpke@gmail.com'),
 ('fax', ''),
-('phone', '0300-5393652'),
+('phone', '+923005393652'),
 ('return_policy', 'No item return without original receipt.'),
 ('timezone', 'Pakistan/Karachi'),
 ('website', ''),
@@ -299,7 +299,7 @@ CREATE TABLE `ospos_people` (
 --
 
 INSERT INTO `ospos_people` (`first_name`, `last_name`, `phone_number`, `email`, `address_1`, `address_2`, `city`, `state`, `zip`, `country`, `comments`, `person_id`) VALUES
-('RoshanTech.com', 'POS', '0300-5393652', 'asakpke@gmail.com', '64', 'G Block', 'Attock', 'Punjab', '46000', 'Pakistan', '', 1);
+('RoshanTech.com', 'POS', '+923005393652', 'asakpke@gmail.com', '64', 'G Block', 'Attock', 'Punjab', '46000', 'Pakistan', '', 1);
 
 -- --------------------------------------------------------
 
