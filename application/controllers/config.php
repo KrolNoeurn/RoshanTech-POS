@@ -76,5 +76,34 @@ class Config extends Secure_area
 			echo json_encode(array('success'=>true,'message'=>$this->lang->line('config_saved_successfully')));
 		}
 	}
+
+	// SAS - Code taken from the master (2.3.3)
+	function backup_db()
+    {
+    	$employee_id=$this->Employee->get_logged_in_employee_info()->person_id;
+    	if($this->Employee->has_module_grant('config',$employee_id))
+    	{
+    		$this->load->dbutil();
+    		$prefs = array(
+				'format'      => 'zip',
+				'filename'    => 'ospos.sql'
+    		);
+    		 
+    		$backup =& $this->dbutil->backup($prefs);
+    		 
+			$file_name = 'ospos-' . date("Y-m-d-H-i-s") .'.zip';
+    		$save = 'uploads/'.$file_name;
+    		$this->load->helper('download');
+    		while (ob_get_level()) {
+    			ob_end_clean();
+    		}
+    		force_download($file_name, $backup);
+    	}
+    	else 
+    	{
+    		redirect('no_access/config');
+    	}
+    }
+    // EAS - Code taken from the master (2.3.3)
 }
 ?>
