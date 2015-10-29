@@ -35,7 +35,7 @@ INSERT INTO `ospos_app_config` (`key`, `value`) VALUES
 ('fax', ''),
 ('phone', '+923005393652'),
 ('return_policy', 'No item return without original receipt.'),
-('timezone', 'Pakistan/Karachi'),
+('timezone', 'Asia/Karachi'),
 ('website', ''),
 ('recv_invoice_format', '$CO'),
 ('sales_invoice_format', '$CO'),
