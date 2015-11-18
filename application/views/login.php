@@ -12,11 +12,19 @@ $(document).ready(function()
 	$("#login_form input:first").focus();
 });
 </script>
+<!-- SAS -->
+<link rel="icon" 
+      type="image/ico" 
+      href="<?php echo base_url().'images/';?>favicon.ico">
+<!-- EAS -->
 </head>
 <body>
 
-<div align="center" style="margin-top:10px"><img src=<?php echo base_url();?>/images/logo.gif>
-
+<div align="center" style="margin-top:10px">
+	<!-- SAS -->
+	<!-- <img src=<?php //echo base_url();?>/images/logo.gif> -->
+	<img src="<?php echo base_url();?>/images/favicon.ico">		
+	<!-- EAS -->
 </div>
 
 <div id="login">

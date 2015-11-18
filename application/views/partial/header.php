@@ -55,7 +55,11 @@ html {
     overflow: auto;
 }
 </style>
-
+<!-- SAS -->
+<link rel="icon" 
+      type="image/ico" 
+      href="<?php echo base_url().'images/';?>favicon.ico">
+<!-- EAS -->
 </head>
 
 <body>
