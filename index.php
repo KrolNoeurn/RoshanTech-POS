@@ -19,8 +19,8 @@
  *
  */
 // SAS
-//define('ENVIRONMENT', 'development');
-define('ENVIRONMENT', 'production');
+define('ENVIRONMENT', 'development');
+//define('ENVIRONMENT', 'production');
 // EAS
 /*
  *---------------------------------------------------------------
@@ -36,7 +36,11 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
-			error_reporting(E_ALL);
+			// SAS
+			ini_set('display_errors', 1);
+			ini_set('display_startup_errors', 1);
+			// EAS
+			error_reporting(E_ALL);			
 		break;
 	
 		case 'testing':
